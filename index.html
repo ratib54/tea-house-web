@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Tea House</title>
+ <!-- font awesome link -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <!-- daisy and tailwind link -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- manrope google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!-- custom color  -->
+<script>
+ tailwind.config = {
+   theme: {
+     extend: {
+       colors: {
+         clifford: '#da373d',
+       }
+     }
+   }
+ }
+</script>
+<style>
+ .font-manrope{
+  font-family: 'Manrope', sans-serif;
+ }
+</style>
+
+</head>
+<body class="font-manrope">
+ <!-- It's good banner -->
+ <header class="container max-w-6xl mx-auto">
+  <div class="hero">
+   <div class="hero-content flex-col lg:flex-row py-10 justify-center items-center">
+     <div>
+       <h1 class="lg:text-7xl font-extrabold">It's good <br>
+        tea time at The <br> Tea House</h1>
+       <p class="py-6 lg:w-[530px] space-y-7 opacity-60">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+       <button class="btn btn-primary">Explore More</button>
+     </div>
+     <div>
+      <img src="images/banner.png" class=" max-w-sm lg:max-w-screen-md " />
+      <div class="flex items-center lg:justify-center gap-4 lg:w-[255px] px-2  -my-30 relative bottom-20 lg:left-24 bg-white rounded-md" >
+       <!-- icon -->
+       <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+       <div>
+        <h1 class="text-3xl font-extrabold">5.00</h1>
+        <p class="text-xl opacity-60 font-semibold">Trust Pilot Ratings</p>
+       </div>
+      </div>
+     </div>
+   </div>
+ </div>
+ </header>
+
+ <main class="container max-w-6xl mx-auto">
+<!-- Our Featured Products -->
+<section class=" p-20 mt-10">
+ <div class="text-center ">
+  <h2 class="text-4xl font-extrabold">Our Featured Products</h2>
+  <p class="opacity-65 text-sm font-light lg:w-[901px] text-center mx-auto my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+ </div>
+ <div class=" container mx-auto grid gap-6 lg:gap-14 lg:grid-cols-4 justify-center items-center mt-20 ">
+
+ <!-- first card -->
+  <div class="card w-64 h-96 bg-base-100 shadow-xl">
+   <figure><img src="images/tea-1.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ <!-- second card -->
+  <div class="card w-64 h-96 bg-base-100 shadow-xl">
+   <figure><img src="images/tea-2.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ <!-- third card -->
+  <div class="card w-64 h-96 bg-base-100 shadow-xl">
+   <figure><img src="images/tea-3.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ <!-- fourth card -->
+  <div class="card w-64 h-96 bg-base-100 shadow-xl">
+   <figure><img src="images/tea-4.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ </div>
+</section>
+
+<!-- Meet Our Super Clients -->
+
+<section class="lg:flex justify-center items-center gap-14 my-32 bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-md">
+ <div class="my-40 mx-20">
+<h1 class="my-5 text-5xl font-extrabold text-white">Meet Our Super Clients</h1>
+<p class="my-5 opacity-60 text-sm lg:w-[440px] text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+<button class="btn btn-primary">Show All</button>
+ </div>
+ <div class="h-[233px] lg:w-[470px] bg-white  lg:mr-[140px]  p-10 rounded-md  lg:relative">
+  <img class="lg:absolute bottom-48 right-80 border-4 border-white rounded-full"  src="images/client.png" alt="">
+  <p class="text-sm opacity-50">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+  <h4 class="text-xl">Ilham Yuda</h4>
+  <p class="text-sm opacity-50">Businessman</p>
+ </div>
+</section>
+<!-- News & Events -->
+<section class="  p-5 lg:p-20 mt-10">
+ <div class="text-center ">
+  <h2 class="text-4xl font-extrabold">News & Events</h2>
+  <p class="opacity-65 text-sm font-light lg:w-[901px] text-center mx-auto my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+ </div>
+ <div class="lg:flex  lg:gap-9  justify-center items-center mt-20 ">
+
+ <!-- first card -->
+  <div class="card w-96 h-[448px] bg-base-100 shadow-xl mt-12">
+   <figure><img src="images/news-1.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ <!-- second card -->
+  <div class="card w-96 h-[448px] bg-base-100 shadow-xl mt-12">
+   <figure><img src="images/news-2.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ <!-- third card -->
+  <div class="card w-96 h-[448px] bg-base-100 shadow-xl mt-12">
+   <figure><img src="images/news-3.png" alt="tea" /></figure>
+   <div class="card-body text-center">
+     <h2 class="text-2xl">Milk Tea</h2>
+     <p >Creamer could be replaced by fresh milk</p>
+   </div>
+ </div>
+ </div>
+ </div>
+</section>
+ </main>
+
+  <footer class=" bg-red-300 p-20 lg:p-56" >
+
+   <div class="  lg:flex justify-between mb-32">
+    <img class="text-xl" src="images/Frame.png">
+    <div class="lg:flex gap-5 items-center mr-32">
+     <h3>ready to get started ?</h3>
+     <button class="btn btn-primary">Get Started</button>
+    </div>
+   </div>
+
+   <div class="footer">
+   
+   <nav>
+     <header class="footer-title">Services</header> 
+     <a class="link link-hover">Branding</a>
+     <a class="link link-hover">Design</a>
+     <a class="link link-hover">Marketing</a>
+     <a class="link link-hover">Advertisement</a>
+   </nav> 
+   <nav>
+     <header class="footer-title">Company</header> 
+     <a class="link link-hover">About us</a>
+     <a class="link link-hover">Contact</a>
+     <a class="link link-hover">Jobs</a>
+     <a class="link link-hover">Press kit</a>
+   </nav> 
+   <nav>
+     <header class="footer-title">Legal</header> 
+     <a class="link link-hover">Terms of use</a>
+     <a class="link link-hover">Privacy policy</a>
+     <a class="link link-hover">Cookie policy</a>
+   </nav> 
+   <form>
+     <header class="footer-title text-2xl font-semibold">Subscribe to our newsletter</header> 
+     <fieldset class="w-80">
+       </label> 
+       <div>
+         <input type="text" placeholder="your email" class=" border-b-2 
+         border-black bg-red-300 join-item" /> 
+         <button class="btn btn-error join-item rounded-full"><i class="fa-solid fa-angle-right"></i></button>
+       </div>
+     </fieldset>
+   </form>
+   </div>
+   <div class="footer footer-center p-4  text-base-content mt-32">
+    <aside>
+      <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+    </aside>
+    <div>
+ </footer>
+</body>
+</html>
